@@ -1,0 +1,26 @@
+body {
+  margin: 40px;
+}
+figure {
+  display: inline-block !important;
+  margin: 0;
+  padding: 0;
+  width: 600px;
+  height: 400px;
+}
+
+.hover-zoom {
+  overflow: hidden;
+  display: block;
+
+  & > .zoom {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: all, 0.5s;
+  }
+
+  &:hover > .zoom {
+    transform: scale(1.2);
+  }
+}

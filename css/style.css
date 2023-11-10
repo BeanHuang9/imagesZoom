@@ -1,0 +1,9 @@
+body { margin: 40px; }
+
+figure { display: inline-block !important; margin: 0; padding: 0; width: 600px; height: 400px; }
+
+.hover-zoom { overflow: hidden; display: block; }
+
+.hover-zoom > .zoom { display: block; width: 100%; height: auto; -webkit-transition: all, 0.5s; transition: all, 0.5s; }
+
+.hover-zoom:hover > .zoom { -webkit-transform: scale(1.2); transform: scale(1.2); }
